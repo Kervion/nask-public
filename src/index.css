@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* MAIN STRUCTRUE /////////////////////////////////////*/
+.container {
+  min-height: 100svh;
+}
+.header {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0px;
+}
+.left-column {
+  height: 90vh;
+  border-right: 1px solid lightgrey;
+}
+.right-form {
+  height: 90vh;
+}
+/* END MAIN STRUCTRUE /////////////////////////////////////*/
+
+/* ELEMENTY /////////////////////////////////////*/
+.miastoButton {
+  border: 1px solid lightgrey;
+  width: 240px;
+  border-radius: 4px;
+}
+.miastoButton:hover {
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+}
+/* END ELEMENTY /////////////////////////////////////*/
+
+/* DROBIAZGI /////////////////////////////////////*/
+.bordergrey {
+  border: 1px solid lightgrey !important;
+}
+.szer240 {
+  width: 240px;
+}
+.botttomLine {
+  border-bottom: 1px solid lightgrey;
+}
+.awesome {
+  margin: 0px 6px;
+}
+h3 span:hover,
+.menu:hover,
+.awesome:hover {
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* END DROBIAZGI /////////////////////////////////////*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
 }
